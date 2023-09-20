@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$brand:#045a3a;
+$yellow:#ffc008;
+
+.top{
+
+    background-color: $brand;
+
+    .width{
+        width: 35px;
+        height: 35px;
+    }
+  
+}
+
+.logo{
+    .text{
+        color: $brand;
+    }
+
+    .photo{
+        width: 133px;
+        height: 80px;
+    }
+   i{
+    font-size: 24px;
+   }
+}
+
+nav{
+    
+    .bg{
+        a{
+            color: white;
+        }
+        .dropdown-menu{
+            a{
+                color: black;
+            }
+        }
+        background-color: $brand;
+       
+    }
+   
+    .dropdown-toggle::after{
+        display: none !important;
+        
+    }
+}
+
+.slider{
+    img{
+        height: 80vh;
+    }
+       
+        .main{
+            object-fit: cover;
+            height: 80vh;
+            position: relative;
+            .position{
+                text-align: center;
+                color: white;
+                position:absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+    
+    
+    }
+}
+
+.title{
+    .color-h3{
+        color: $brand;
+        h3{
+            position: relative;
+            &::after{
+                content: '';
+                margin-top: 5px;
+                width: 7%;
+                height: 3px;
+                border: solid $brand 2px;
+                border-radius: 5px;
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                transform: translate(-50%);
+            }
+        }
+    }
+    .color-p{
+        color: grey;
+    }
+}
+
+.slider2{
+    .parent{
+       
+        
+       img{
+        border-radius: 10px;
+       }
+       .parent2{
+        position: relative;
+        .child{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+       }
+    }
+}
+footer{
+    height: 20vh;
+    background: linear-gradient(to right,#045a3ac0,#ffc1088a),url(https://www.santrekking.com/upload/company/santrekking-footer-art.png);
+}

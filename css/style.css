@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.top {
+  background-color: #045a3a;
+}
+.top .width {
+  width: 35px;
+  height: 35px;
+}
+
+.logo .text {
+  color: #045a3a;
+}
+.logo .photo {
+  width: 133px;
+  height: 80px;
+}
+.logo i {
+  font-size: 24px;
+}
+
+nav .bg {
+  background-color: #045a3a;
+}
+nav .bg a {
+  color: white;
+}
+nav .bg .dropdown-menu a {
+  color: black;
+}
+nav .dropdown-toggle::after {
+  display: none !important;
+}
+
+.slider img {
+  height: 80vh;
+}
+.slider .main {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 80vh;
+  position: relative;
+}
+.slider .main .position {
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.title .color-h3 {
+  color: #045a3a;
+}
+.title .color-h3 h3 {
+  position: relative;
+}
+.title .color-h3 h3::after {
+  content: "";
+  margin-top: 5px;
+  width: 7%;
+  height: 3px;
+  border: solid #045a3a 2px;
+  border-radius: 5px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+.title .color-p {
+  color: grey;
+}
+
+.slider2 .parent img {
+  border-radius: 10px;
+}
+.slider2 .parent .parent2 {
+  position: relative;
+}
+.slider2 .parent .parent2 .child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+footer {
+  height: 20vh;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(4, 90, 58, 0.7529411765)), to(rgba(255, 193, 8, 0.5411764706))), url(https://www.santrekking.com/upload/company/santrekking-footer-art.png);
+  background: linear-gradient(to right, rgba(4, 90, 58, 0.7529411765), rgba(255, 193, 8, 0.5411764706)), url(https://www.santrekking.com/upload/company/santrekking-footer-art.png);
+}/*# sourceMappingURL=style.css.map */
